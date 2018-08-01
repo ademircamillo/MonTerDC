@@ -1,0 +1,5 @@
+MonTerDC 	KEYWORD1
+inicializa 	KEYWORD2
+id			KEYWORD2
+token		KEYWORD2
+sendGET		KEYWORD2

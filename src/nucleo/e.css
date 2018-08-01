@@ -1,0 +1,35 @@
+html{overflow-x: hidden;}
+body{width:100%; margin: 0px; padding: 0px; font-family: Verdana; font-size: 16px; color: #333; position: relative;}
+
+#geral{float:left; width:100%; overflow:hidden; margin: 0; padding:0;}
+#geral #top{float:left; width:100%; margin: 0px 0px 1px 0px; height: auto; background-color: #527F76; color: #FFFFFF; font-size: 14px; text-align: center; padding-top:2px;}
+#geral #top img{float: right;}
+
+#geral #menu{float: left; width:100%; text-align:center; margin: 1px auto; background-color: #CCC; color: #FFF; font-size: 14px;}
+#geral #menu span{float: left; padding: 10px;}
+
+
+#geral #bloco{float:left; width:100%; text-align:left; margin: 2px 0px; background-color: #527F76; color: #FFF; font-size: 30px;}
+#geral #bloco #titulo{float: left; font-size: 12px; color: #FFFFFF; writing-mode:tb-rl; transform: rotate(-90deg); width: 50px; margin: 35px 2px 1px 0px; text-transform: uppercase;}
+#geral #bloco img{float: left; margin: 5px 10px;}
+#geral #bloco #status{float: left; margin: 5px 0px 5px 0px; width: 50%;}
+#geral #bloco #statusCenter{float: left; margin: 20px 0px 5px 0px; width: 50%;}
+#geral #bloco span{font-size: 16px; float: left;  height: 20px;}
+#geral #bloco input[type=submit]{text-align:center; width: 100%; padding: 0px; margin: 0px; font-size: 14px; background-color: #8C1717; color: #FFFFFF; float: left;}
+#geral #msg{float:left; width: 100%; margin: 2px 0px 0px 0px; padding: 1px; background-color: #527F76; border: 1px solid #FFF; color: #FFFFFF; font-size: 12px; text-align: center;}
+
+#grafico {overflow:hidden; width:98%; height: 100%; float: left; text-align: center}
+#grafico  h1{width:98%; font-size: 22px; margin: 20px 0px 10px 0px; padding: 0px;}
+
+#diario {overflow:hidden; width:98%; height: 100%; float: left; text-align: center}
+#diario  h1{width:98%; font-size: 22px; margin: 20px 0px 10px 0px; padding: 0px;}
+
+
+#estatisticas {overflow:hidden; width:98%; height: 100%; float: left; text-align: center}
+#estatisticas  h1{width:98%; font-size: 22px; margin: 20px 0px 10px 0px; padding: 0px;}
+
+#sobre {overflow:hidden; width:98%; height: 100%; float: left; text-align: center; display: none;}
+#sobre  h1{width:98%; font-size: 22px; margin: 20px 0px 10px 0px; padding: 0px;}
+#login{width: 350px; height: 250px; margin: 40px auto; border: 1px solid #CCC; padding: 20px; text-align: center; background-color: #FFF;}
+#login input[type=password]{margin: 10px; width: 200px; height: 40px; font-size: 24px; padding: 2px 20px;}
+#login input[type=submit]{margin: 10px; width: 200px; height: 40px; font-size: 24px; padding: 2px 20px; letter-spacing: 3px;}
